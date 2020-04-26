@@ -32,6 +32,7 @@ public class DemoApplication {
 		
 		estadoRepository.save(new Estado("1", "Paraná", "PR",br));
 		estadoRepository.save(new Estado("2", "Santa Catarina", "PR",pr));
+		estadoRepository.save(new Estado("3", "São Paulo", "SP",br));
 		
 		
 	}
